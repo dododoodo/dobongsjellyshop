@@ -1,0 +1,389 @@
+@font-face {
+    font-family: 'DOSPilgiMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeoDunggeunmoProRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #262626;
+}
+
+.main1 {
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+    margin: 10px 100px 30px 100px;
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+
+#mainjelly {
+    text-align: center;
+}
+
+#mainjelly img {
+    margin-top: 10px;
+    max-width: 60%;
+    height: auto;
+}
+
+#mainjelly a:hover {
+    opacity: 70%;
+}
+
+#maintext {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.5625rem;
+    font-family:'DOSPilgiMedium';
+    color: #ffffff;
+    padding: 0;
+}
+
+#maintext p {
+    font-family: 'NeoDunggeunmoProRegular';
+    margin-top: 30px;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+#maintext h2 {
+    margin-bottom: 8px;
+}
+
+.main2 {
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+    margin: 50px 100px 30px 100px;
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+
+#maintext2 {
+    font-size: 1.5625rem;
+    font-family:'DOSPilgiMedium';
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -320px;
+}
+
+#newjelly {
+    margin-top: -20%;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    padding-top: calc(300 / 300 * 50%);
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 70%;
+    }
+}
+
+#newjelly a:hover {
+    opacity: 50%;
+    transition: all 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    #newjelly img {
+        width: 100%; /* 변경 */
+    }
+}
+
+@media (max-width: 480px) {
+    #newjelly img {
+        width: 50%; /* 변경 */
+    }
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #B3005E;
+}
+
+footer img {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+footer p {
+    margin-top: 30px;
+    margin-right: 100px;
+    text-align: right;
+    float: right;
+    font-family: 'NeoDunggeunmoProRegular';
+    font-size: .9375rem;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 850px) {
+    footer p {
+        opacity: 0;
+    }
+}
+
+#navhere {
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+}
+
+#subtext1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#subtext1 p {
+    margin-bottom: 30px;
+    font-family: 'NeoDunggeunmoProRegular';
+    font-size: 1.0625rem;
+    color: #ffffff;
+}
+
+.main3 {
+    position: relative;
+    height: 1300px;
+    border-radius: 20px;
+    margin: 10px 100px 30px 100px;
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+
+#jellies {
+    width: 100%;
+    height: 0;
+    padding-top: calc(300 / 300 * 10%);
+
+}
+
+#jellies img:hover {
+    opacity: 50%;
+    transition: all 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    #jellies img {
+        width: 100%; /* 변경 */
+    }
+}
+
+@media (max-width: 480px) {
+    #jellies img {
+        width: 50%; /* 변경 */
+    }
+}
+
+#when {
+    color: #ffffff;
+    font-family: 'NeoDunggeunmoProRegular';
+    font-size: 1.375rem;
+    margin-top: 50px;
+    color: #FF5F9E;
+}
+
+#smallbox {
+    position: absolute;
+    background-color: #B3005E;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+    height: 350px;
+    left: 100px;
+    right: 100px;
+}
+
+#choice {
+    position: absolute;
+    top: 53%;
+    margin-left: 35px;
+}
+
+#choice a {
+    font-size: 3.125rem;
+    
+}
+
+#choice2 {
+    position: absolute;
+    top: 53%;
+    margin-right: 35px;
+    right: 0%;
+}
+
+#choice2 a {
+    font-size: 3.125rem;
+    
+}
+
+#smallbox h3 {
+    top: 20%;
+    left: 52%;
+    position: absolute;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: 'DOSPilgiMedium';
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ffffff;
+
+}
+
+#smallbox img {
+    position: absolute;
+    left: 15%;
+    width: 30%; /* 수정된 부분 */
+    height: auto; /* 수정된 부분 */
+}
+
+@media screen and (max-width: 768px) {
+    #smallbox img {
+        width: 30%; /* 화면 너비에 맞게 100%로 설정 */
+        left: 0; /* 가운데 정렬을 위해 left 값 제거 */
+    }
+}
+
+#smallbox h2 {
+    top: 31%;
+    left: 52%;
+    position: absolute;
+    font-size: 1.5625rem;
+    color: #ffd900;
+    font-family: 'DOSPilgiMedium';
+
+}
+
+#smallbox p {
+    text-align: left;
+    top: 49%;
+    left: 52%;
+    position: absolute;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: 'NeoDunggeunmoProRegular';
+}
+
+.main4 {
+    position: relative;
+    height: 450px;
+    border-radius: 20px;
+    margin: 55px 100px 30px 380px;
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+
+#asidebar {
+    float: left;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+
+}
+
+#sidet4 h2 {
+    margin-top: 40px;
+    color: white;
+    font-size: 1.375rem;
+    font-family: 'DOSPilgiMedium';
+}
+
+#sidet4 p {
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'NeoDunggeunmoProRegular';
+}
+
+@media screen and (max-width: 1100px) {
+    #sidet4 img {
+        width: 100%;
+    }
+}
+
+
+/* 사이드 네비게이션 바 */
+
+aside {
+    width: 9.5%;
+    height: 290px;
+    margin-left: 160px;
+    border-radius: 20px;
+    border: solid 2px #ffffff;
+    margin-bottom: 200px;
+}
+
+.sidenav {
+    margin-top: -485px;
+}
+
+.sidenav li {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+aside>h4 {
+    background-color: #B3005E;
+    font-family: 'DOSPilgiMedium';
+    color: white;
+    padding: 20px 10px 15px 10px;
+    text-align: center;
+    font-size: .9375rem;
+    font-weight: 500;
+    border-radius: 20px 20px 0 0;
+}
+
+.nothing {
+    width: 80%;
+    padding: 15px;
+    color: #ff5f9f88;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.nothing:hover {
+    width: 180px;
+    padding: 15px;
+    margin-left: -33px;
+    color: #FF5F9E;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.subhere {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+    color: #B3005E;
+}
+
+.main6 {
+    max-width: 500px;
+    height: 605px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+
+.main6 p {
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 1.0625rem;
+    font-family: 'NeoDunggeunmoProRegular';
+}
